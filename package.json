@@ -1,14 +1,13 @@
 {
   "name": "grafana-lint",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "sam bacha",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "ajv": "^8.6.2",
     "ajv-formats": "^2.1.1",
@@ -16,6 +15,8 @@
     "typedescriptor": "^4.0.12"
   },
   "devDependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.9",
+    "@types/json-schema": "^7.0.9",
     "@types/node": "^14.17.15",
     "gts": "^3.1.0",
     "ts-node-dev": "^1.1.8",
