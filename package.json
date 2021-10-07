@@ -11,15 +11,18 @@
   "dependencies": {
     "ajv": "^8.6.2",
     "ajv-formats": "^2.1.1",
-    "defekt": "^8.0.0",
     "typedescriptor": "^4.0.12"
   },
   "devDependencies": {
     "@apidevtools/json-schema-ref-parser": "^9.0.9",
     "@types/json-schema": "^7.0.9",
     "@types/node": "^14.17.15",
+    "assertthat": "^6.3.13",
+    "defekt": "^8.0.0",
     "gts": "^3.1.0",
+    "roboter": "^12.3.0",
     "ts-node-dev": "^1.1.8",
+    "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   }
 }

@@ -8,10 +8,11 @@
     "outDir": "build",
     "resolveJsonModule": true,
     "strict": true,
+    "skipLibCheck": true,
     "target": "es2019"
   },
   "include": [
-    "./**/*.ts"
+    "./src/**/*.ts"
   ],
   "exclude": [
     "./build"
